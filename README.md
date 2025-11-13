@@ -2,7 +2,6 @@ FIFA 2018 Player Performance &amp; Positional Analytics
 
 Data-driven analysis of FIFA 2018 player performance, wages, potential, positional attributes, and club-level insights.
 
-
 This project analyses 17,981 players from the FIFA 2018 dataset, exploring positional strengths, wage patterns, talent potential, aggression profiles, and country-level player distribution. Using Excel/Power BI/Python-style analytics, the study uncovers how player attributes correlate with wages, performance, and future potential.
 
 The analysis includes:
@@ -27,4 +26,37 @@ The analysis includes:
 
 💼 Wage distributions among the world’s best clubs (Barça, Madrid, PSG, etc.)
 
-This project provides deep insights into player valuation, role-based performance patterns, and club recruitment strategies, offering a data-driven understanding of how elite football operates from a talent and economic perspective.
+The project provides deep insights into player valuation, role-based performance patterns, and club recruitment strategies, offering a data-driven understanding of how elite football operates from a talent and economic perspective.
+
+The project explores FIFA 2018 player performance using Power BI to identify key factors that influence player success and team outcomes. The dataset includes detailed attributes such as player ratings, positions, nationalities, physical stats, market value, and performance metrics.
+
+The goal of this analysis is to uncover actionable insights, including:
+
+⭐ Top-performing players by rating
+
+⚽ Comparison of player performance across positions
+
+🌍 Player distribution by country and club
+
+📊 Correlation between player attributes and overall rating
+
+💰 Relationship between market value and performance metrics
+
+The dashboard provides an interactive visual exploration of:
+
+Player ratings and attributes
+
+Team and nationality breakdowns
+
+Age and performance distribution
+
+Key drivers behind high-performing players
+
+This project was completed as part of a data visualisation exercise to develop strong analytical thinking and storytelling using Power BI.
+
+📌 Tools used:
+
+Power BI (Dashboard & Analysis)
+
+Excel (Data Cleaning - EDA)
+
