@@ -1,83 +1,74 @@
 ⚽ FIFA 2018 Player Performance & Positional Analytics
 
-Comprehensive Data Exploration & Insights Using Python
+A comprehensive data analytics project exploring player performance, positional attributes, wage structures, and talent distribution using the FIFA 2018 dataset.
 
-This project presents a full analytical breakdown of 17,981 FIFA 2018 players, focusing on performance metrics, positional strengths, wage patterns, and future talent identification. The analysis provides rich insights into how football clubs evaluate players, the attributes that drive performance, and how positional profiles differ across the game.
+This project provides deep insights into the football landscape by analysing 17,981 professional players, covering skill ratings, physical profiles, wages, nationality representation, positional strengths, and future potential.
+The analysis combines exploratory data analysis (EDA), visualisation, ranking metrics, and comparative analytics to understand how player attributes translate into performance and market value.
 
-The project answers key football analytics questions such as:
+📌 Key Analyses Performed
+1️⃣ Top 10 Countries Producing the Most Players
 
-Which countries produce the most professional players?
+Rank-ordered countries based on player count to understand global football talent distribution.
 
-At what age do players typically peak?
+2️⃣ Player Development Curve: Overall Rating vs Age
 
-Which attacking position earns the highest wages — Striker, Right Winger, or Left Winger?
+Identified the age range where players peak and the point after which improvement slows.
 
-Who were the top 5 players per position in terms of overall and potential?
+3️⃣ Who Gets Paid the Most? LW vs RW vs ST
 
-How do wages relate to player potential (especially ages 16–28)?
+Analysed offensive positions to determine which role commands higher wages — supported with scatter plots and wage distributions.
 
-Do defenders display higher aggression than strikers?
+4️⃣ Top 5 Players per Preferred Position
 
-How do Strikers vs Goalkeepers compare in acceleration, agility, ball control, balance, and aggression?
+Ranked players by both overall rating and potential, revealing the best-performing and future-star players of 2018.
 
-Which clubs have the highest share of English, Spanish, and German players?
+5️⃣ Clubs With Highest Share of English, Spanish & German Players
 
-Which clubs have the best future stars (Overall <86 and Potential ≥86)?
+Explored club nationality composition across leagues, highlighting differences between elite and lower-tier clubs.
 
-How do elite clubs pay their players (Barcelona, PSG, Real Madrid, Juventus, etc.)?
+6️⃣ Does Potential Influence Wages? (Age 16–28)
 
-🔍 Key Insights
-🇦🇷 Top Football Nations
+Strong positive correlation (0.7–0.8) observed — players with high potential earn dramatically more.
 
-Countries like England, Spain, Germany, and Argentina dominate player production, with over 1000+ registered players each.
+7️⃣ Aggression Comparison: Strikers vs Defenders
 
-📈 Player Development
+Defenders show 20% higher aggression, reflecting tactical demands.
 
-Visualisation of overall rating vs age reveals that players generally peak between 27–30 years before gradually declining.
+8️⃣ Positional Profiling: ST vs GK Attributes
 
-⚽ Offensive Position Wage Comparison
+Compared Aggression, Acceleration, Agility, Balance & Ball Control — clearly showing positional differences.
 
-Strikers (ST) command the highest wages at elite levels, followed by RW and LW.
+9️⃣ Clubs With the Most Future Superstars
 
-🌍 Positional Excellence
+Players with Overall < 86 and Potential ≥ 86 revealed Barcelona, Atlético Madrid, Dortmund & Man City leading global youth development.
 
-Cristiano Ronaldo (94) and Lionel Messi (93) lead the overall ratings, while future superstars like Mbappé and Donnarumma (both 94 potential at age 18) dominate potential scores.
+🔟 Wage Distribution of World’s Top Clubs
 
-💵 Wage vs Potential
+Box plots analysed wage structures for Barcelona, Real Madrid, PSG, Bayern, Manchester City, Juventus, Liverpool.
 
-A strong positive correlation (0.7–0.8) indicates that potential is a major driver of wages, especially among ages 16–28.
+🧰 Tools & Technologies
 
-💪 Aggression Analysis
+Python / Pandas / NumPy
 
-Defenders average 79.17 aggression
+Matplotlib / Seaborn
 
-Strikers average 65.87
-→ Defenders are 20% more aggressive by necessity of role.
+Jupyter Notebook
 
-🧩 Positional Profiling
+Excel (for supplementary analysis)
 
-Strikers demonstrate higher acceleration, agility, ball control, and aggression, while GKs specialise in reflexes, diving, and handling.
-
-🧒 Future Talent
-
-Barcelona leads with 9 high-potential players, followed by Atlético Madrid (8). Dortmund and Manchester City follow with strong youth pipelines.
-
-💼 Wages by Elite Clubs
-
-Real Madrid tops median wages (€250K), while Liverpool displays a more balanced wage structure.
-
-🛠️ Tools & Technologies
-
-Python (Pandas, Matplotlib, Seaborn)
-
-Jupyter / VS Code
-
-Data Visualisation & Statistical Analysis
-
-FIFA 2018 Player Dataset
+Power BI / Visual storytelling (optional)
 
 👤 Author
-
 Victor Prefa
-Master of Data Science (Deakin University)
-Football Data Analytics | Machine Learning | Visualization
+Master of Data Science, Deakin University
+Data Analyst | Football Analytics | Predictive Modelling
+
+📎 Repository Contents
+
+FIFA_2018_Analysis.ipynb
+
+Visualisations/ (charts, plots)
+
+PowerPoint Presentation (FIFA 2018 Player Performance).pptx
+
+README.md
