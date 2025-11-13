@@ -30,8 +30,41 @@ Physical attributes (such as stamina and strength) significantly influence overa
 
 🛠️ Tools & Technologies
 
-Python
-
 Power BI / Excel (Dashboard)
 
-Pandas, NumPy, Matplotlib, Seaborn (if you expand later)
+The project includes:
+
+
+Exploratory Data Analysis (EDA) on FIFA 2018 player attributes
+
+
+Performance segmentation across positions (Attackers, Midfielders, Defenders, Goalkeepers)
+
+
+Visual insights such as rating distributions, passing accuracy, defending strength, pace metrics, and overall contribution
+
+
+Comparison of top performers vs. average players
+
+
+A clean, visually structured PowerPoint presentation summarising findings
+
+
+This analysis was developed as part of a data-driven sports analytics assignment and demonstrates practical skills in:
+
+
+Data cleaning & preprocessing
+
+
+Statistical analysis
+
+
+Visualization
+
+
+Insight communication for decision-making
+
+
+The repository contains the full report and presentation, illustrating how player metrics can support scouting, ranking, and player evaluation in competitive football.
+
+
