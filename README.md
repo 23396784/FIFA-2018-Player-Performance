@@ -1,53 +1,47 @@
-FIFA 2018 Player Performance &amp; Positional Analytics
+⚽ FIFA 2018 Player Performance & Positional Analytics
 
-This project explores player performance patterns using the FIFA 2018 dataset, transforming raw player attributes into meaningful insights through data cleaning, preprocessing, and statistical exploration.
-It forms part of a broader portfolio demonstrating practical analytical skills in Python, data preprocessing, feature engineering, and visualisation.
+This project analysed the FIFA 2018 player dataset, featuring 17,000+ footballers across all major leagues. Using Python and Power BI, it explores player performance, wage patterns, positional differences, talent potential, and club-level composition. The analysis provides a data-driven understanding of how footballers differ based on age, position, nationality, and skill profiles — just as a real football manager would assess talent.
 
-🔍 Project Overview
+🔍 Key Analysis Areas
 
-The goal of this analysis is to understand how different attributes—such as age, overall rating, potential, physical stats, contract duration, and player value—contribute to a player’s performance.
+Top 10 countries producing the highest number of professional players
 
-The project includes:
+Overall rating vs age analysis to determine when players peak
 
-Cleaning and preparing the FIFA 2018 dataset
+Which attacking role is paid the most (ST vs LW vs RW)
 
-Handling missing values and data types
+Top 5 players per preferred position by overall and potential
 
-Exploratory Data Analysis (EDA)
+Clubs with the most English, Spanish, and German players
 
-Visualising trends such as:
+Relationship between player wages and potential (ages 16–28)
 
-Rating distribution
+Aggression comparison between strikers and defenders (overall rating 80–85)
 
-Age vs. performance
+Attribute profiling of strikers vs goalkeepers
 
-Player value vs. potential
+Top clubs with the highest number of “future superstars” (Overall <86, Potential ≥86)
 
-Nationality-based trends
+Wages among the world’s top clubs (Barcelona, Real Madrid, PSG, Man City, Liverpool, Juventus, Bayern Munich)
 
-Extracting insights useful for scouting, strategy, and player development
+📊 Tools & Technologies
 
-🛠 Tools & Technology
+Python: pandas, matplotlib, seaborn
 
-Python
+Power BI / Excel: visual analytics & dashboarding
 
-Pandas, NumPy
+Jupyter Notebook for player-level analysis
 
-Matplotlib & Seaborn
+Data visualisation for positional insights and club comparisons
 
-Jupyter Notebook
+📈 What This Project Demonstrates
 
-PowerPoint (for presentation insights)
+Strong ability to work with large sports datasets
 
-📊 Key Insights
+Skill in data cleaning, pattern detection, and performance analysis
 
-Younger players generally show higher potential growth.
+Ability to extract tactical and strategic insights from player data
 
-Market value strongly correlates with overall rating, but also varies by position.
+Clear and professional presentation of results
 
-Physical attributes (pace, strength, stamina) strongly influence the performance of forwards and midfielders.
-
-🎯 Objective
-
-To demonstrate end-to-end analytical capability—from raw data to actionable insights—using modern data science tools and visualisation techniques.
-
+Competence in both Python analytics and dashboard reporting
