@@ -1,62 +1,37 @@
 FIFA 2018 Player Performance &amp; Positional Analytics
 
-Data-driven analysis of FIFA 2018 player performance, wages, potential, positional attributes, and club-level insights.
+This project explores detailed performance statistics of FIFA 2018 players to uncover meaningful insights that can inform team selection, talent scouting, and strategic decision-making. Using a structured dataset containing player attributes such as age, nationality, overall rating, potential, value, wage, and position-specific skills, the analysis evaluates how player characteristics relate to performance.
 
-This project analyses 17,981 players from the FIFA 2018 dataset, exploring positional strengths, wage patterns, talent potential, aggression profiles, and country-level player distribution. Using Excel/Power BI/Python-style analytics, the study uncovers how player attributes correlate with wages, performance, and future potential.
+The goal is to help teams identify high-value players, understand positional strengths, and recognise the attributes most strongly associated with top performance.
 
-The analysis includes:
+🔍 Project Objectives
 
-📊 Top 10 countries producing the most professional footballers
+Analyse overall player performance trends across FIFA 2018.
 
-📈 Overall rating vs. age, showing the age when players stop improving
+Identify which skills contribute most to higher overall ratings.
 
-⚽ Wage comparison of offensive positions (LW, RW, ST)
+Compare players across positions (e.g., forwards, midfielders, defenders, goalkeepers).
 
-⭐ Top 5 players by position (overall & potential)
+Examine age and potential progression to determine long-term talent value.
 
-🏴 Club-wise share of players from England, Spain, and Germany
+Highlight top-performing players and countries with the strongest squads.
 
-💰 Relationship between wages and player potential (ages 16–28)
+📊 Key Insights (from analysis & dashboard)
 
-🔥 Aggression comparison between strikers and defenders (overall 80–85)
+Younger players with high potential outperform older players over time.
 
-🧩 Attribute profiling for Strikers vs Goalkeepers
+Wages and player value strongly correlate with overall rating.
 
-🌟 Top 10 clubs with the highest number of future superstars
+Attacking players show higher volatility in performance than defensive players.
 
-💼 Wage distributions among the world’s best clubs (Barça, Madrid, PSG, etc.)
+European countries dominate the list of top-rated footballers.
 
-The project provides deep insights into player valuation, role-based performance patterns, and club recruitment strategies, offering a data-driven understanding of how elite football operates from a talent and economic perspective.
+Physical attributes (such as stamina and strength) significantly influence overall performance in certain positions.
 
-The project explores FIFA 2018 player performance using Power BI to identify key factors that influence player success and team outcomes. The dataset includes detailed attributes such as player ratings, positions, nationalities, physical stats, market value, and performance metrics.
+🛠️ Tools & Technologies
 
-The goal of this analysis is to uncover actionable insights, including:
+Python
 
-⭐ Top-performing players by rating
+Power BI / Excel (Dashboard)
 
-⚽ Comparison of player performance across positions
-
-🌍 Player distribution by country and club
-
-📊 Correlation between player attributes and overall rating
-
-💰 Relationship between market value and performance metrics
-
-The dashboard provides an interactive visual exploration of:
-
-Player ratings and attributes
-
-Team and nationality breakdowns
-
-Age and performance distribution
-
-Key drivers behind high-performing players
-
-This project was completed as part of a data visualisation exercise to develop strong analytical thinking and storytelling using Power BI.
-
-📌 Tools used:
-
-Power BI (Dashboard & Analysis)
-
-Excel (Data Cleaning - EDA)
-
+Pandas, NumPy, Matplotlib, Seaborn (if you expand later)
